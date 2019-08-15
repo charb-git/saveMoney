@@ -1,0 +1,126 @@
+.view_item {
+  width: 690rpx;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10rpx;
+  box-shadow: 0px 6rpx 12rpx 0px rgba(0, 0, 0, 0.1);
+  padding: 20rpx;
+  box-sizing: border-box;
+  margin-top: 30rpx;
+}
+
+.view_mall_msg {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.img_mall {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  margin-right: 20rpx;
+}
+
+.view_mall_dsc {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.text_mall_name {
+  font-size: 28rpx;
+  display: flex;
+  align-items: center;
+  color: #333;
+}
+
+.text_mall_p {
+  display: flex;
+  align-items: center;
+  font-size: 24rpx;
+  color: #999;
+  margin-top: 6rpx;
+}
+
+.text_look {
+  width: 80rpx;
+  height: 40rpx;
+  border-radius: 20rpx;
+  color: #f66a1f;
+  font-size: 24rpx;
+  border: 2rpx solid #f66a1f;
+  line-height: 40rpx;
+  text-align: center;
+}
+
+.text_mall_type {
+  height: 30rpx;
+  padding-left: 10rpx;
+  padding-right: 10rpx;
+  background: linear-gradient(180deg, #ff5454, #f83e3e);
+  color: white;
+  font-size: 20rpx;
+  line-height: 30rpx;
+  margin-right: 10rpx;
+  border-radius: 6rpx;
+}
+
+.text_mall_s {
+  height: 30rpx;
+  padding-left: 10rpx;
+  padding-right: 10rpx;
+  color: #666;
+  font-size: 20rpx;
+  line-height: 30rpx;
+  margin-left: 10rpx;
+  border-radius: 6rpx;
+  border: 2rpx solid #e3e3e3;
+}
+
+.view_goods {
+  width: 100%;
+  display: flex;
+  margin-top: 30rpx;
+  justify-content: space-between;
+}
+
+.view_item_goods {
+  width: 215rpx;
+  height: 215rpx;
+  border-radius: 4rpx;
+  position: relative;
+}
+
+.img_goods {
+  width: 215rpx;
+  height: 215rpx;
+  border-radius: 4rpx;
+}
+
+.text_item_price {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 40rpx;
+  border-bottom-left-radius: 4rpx;
+  line-height: 40rpx;
+  color: white;
+  font-size: 24rpx;
+  padding-left: 10rpx;
+  padding-right: 10rpx;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.view_100
+{
+width: 100%;
+height: 100rpx;
+}
+.text_change
+{
+  font-size: 28rpx;
+  padding: 30rpx;
+  color: #49A3FC;
+  margin-top: 20rpx;
+}

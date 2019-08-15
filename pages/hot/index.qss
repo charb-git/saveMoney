@@ -1,0 +1,39 @@
+.view_item {
+  width: 690rpx;
+  height: 324rpx;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  border-radius: 12rpx;
+  margin-top: 20rpx;
+  box-shadow: 0px 6rpx 12rpx 0px rgba(0, 0, 0, 0.1);
+}
+
+.view_img_s {
+  width: 690rpx;
+  height: 324rpx;
+  border-radius: 12rpx;
+}
+.view_100
+{
+  width: 100%;
+  height: 100rpx;
+}
+.text_title
+{
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 28rpx;
+  display: flex;
+  box-sizing: border-box;
+  height: 60rpx;
+  line-height: 60rpx;
+  border-bottom-left-radius: 12rpx;
+  border-bottom-right-radius: 12rpx;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-left: 20rpx;
+}

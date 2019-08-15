@@ -1,0 +1,123 @@
+.view-table {
+  display: flex;
+  flex-direction: row;
+  height: 75rpx;
+  width: 100%;
+  background: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  white-space: nowrap
+}
+
+.view_80 {
+  width: 100%;
+  height: 74rpx;
+}
+
+.view-table-item {
+  display: inline-block;
+  background: white;
+  padding: 0 20rpx;
+  height: 70rpx;
+}
+
+.text-tab {
+  display: flex;
+  height: 70rpx;
+  align-items: center;
+  justify-content: center;
+  font-size: 28rpx;
+  color: #999;
+ 
+}
+
+.text-tab-slect {
+  display: flex;
+  height: 70rpx;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+  font-size: 28rpx;
+  font-weight: bold;
+  border-bottom: 5rpx solid #49a3fc;
+}
+
+.view-h-table {
+  display: flex;
+  width: 100%;
+  height: 70rpx;
+  justify-content: center;
+}
+
+.view_item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 30rpx;
+  box-sizing: border-box;
+  border-bottom: 2rpx solid #f8f8f8;
+}
+
+.img_goods {
+  width: 200rpx;
+  height: 200rpx;
+  margin-right: 20rpx;
+  flex-shrink: 0;
+}
+
+.view_right {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.view_title {
+  width: 470rpx;
+  font-size: 28rpx;
+  color: #333;
+  font-weight: 500;
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.view_by {
+  height: 32rpx;
+  padding: 0 4rpx;
+  background: rgba(250, 35, 29, 1);
+  border-radius: 2rpx;
+  line-height: 32rpx;
+  color: white;
+  font-size: 20rpx;
+  margin-right: 4rpx;
+  margin-bottom: 2rpx;
+}
+
+.view_price_and_c {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 26rpx;
+}
+
+.view_price {
+  display: flex;
+  align-items: flex-end;
+  font-size: 22rpx;
+  color: #999;
+}
+
+.text_sell {
+  font-size: 20rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(153, 153, 153, 1);
+  margin-top: 10rpx;
+}

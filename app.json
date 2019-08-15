@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/hot/index",
+    "pages/pinpai/index",
+    "pages/clazz/index",
+    "pages/goodsInfo/info",
+    "pages/themGoodsList/list",
+    "pages/search/index",
+    "pages/searchResult/index",
+    "pages/mallGoods/list",
+    "pages/action/list"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "多多省钱快报",
+    "backgroundColor": "#f8f8f8",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#9F9F9F",
+    "selectedColor": "#49A3FC",
+    "backgroundColor":"#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/main1.png",
+        "selectedIconPath": "images/main12.png"
+      },
+      {
+        "pagePath": "pages/clazz/index",
+        "text": "分类",
+        "iconPath": "images/main2.png",
+        "selectedIconPath": "images/main22.png"
+      },
+      {
+        "pagePath": "pages/pinpai/index",
+        "text": "品牌馆",
+        "iconPath": "images/main3.png",
+        "selectedIconPath": "images/main32.png"
+      },
+      {
+        "pagePath": "pages/hot/index",
+        "text": "主题会场",
+        "iconPath": "images/main4.png",
+        "selectedIconPath": "images/main42.png"
+      }
+    ]
+  },
+  "navigateToMiniProgramAppIdList": [
+    "1108233859"
+  ],
+  "sitemapLocation": "sitemap.json"
+}

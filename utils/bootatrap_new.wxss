@@ -1,0 +1,23 @@
+
+
+.progress-bar {
+	float: left;
+	width: 0;
+	height: 100%;
+	color: #fff;
+	text-align: center;
+	font-size: 12px;
+	line-height: 20px;
+	-webkit-transition: width .6s ease;
+	-o-transition: width .6s ease;
+	transition: width .6s ease;
+}
+/* 颜色修改这里 */
+.progress-bar-danger {
+background:linear-gradient(270deg,rgba(32,215,142,1) 0%,rgba(20,246,128,1) 99%);
+}
+.progress-striped .progress-bar-danger {
+	background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+	background-image: -o-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+	background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+}
